@@ -1,5 +1,3 @@
 def solution(arr):
-    answer = ''
-    for i in range(len(arr)):
-        answer += arr[i]
+    answer = ''.join(arr)
     return answer
