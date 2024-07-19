@@ -4,3 +4,8 @@ def solution(array, n):
         if i == n :
             answer += 1
     return answer
+
+"""
+def solution(array, n):
+    return array.count(n)
+"""
