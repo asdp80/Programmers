@@ -3,3 +3,8 @@ def solution(num_list, n):
     for i in range(0,n):
         answer.append(num_list[i])
     return answer
+
+"""
+def solution(num_list, n):
+    return num_list[:n]
+"""
