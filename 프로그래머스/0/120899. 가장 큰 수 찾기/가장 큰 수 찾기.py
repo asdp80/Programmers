@@ -19,3 +19,8 @@ def solution(array):
     answer.append(b)
     
     return answer
+
+"""
+def solution(array):
+    return [max(array), array.index(max(array))]
+"""
