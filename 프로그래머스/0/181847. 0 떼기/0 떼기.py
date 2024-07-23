@@ -5,3 +5,8 @@ def solution(n_str):
             answer = n_str[i:]
             break
     return answer
+
+"""
+def solution(n_str):
+    return n_str.lstrip('0')
+"""
