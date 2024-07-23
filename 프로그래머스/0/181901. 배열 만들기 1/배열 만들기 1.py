@@ -5,3 +5,13 @@ def solution(n, k):
         answer.append(k*a)
         a+= 1
     return answer
+
+"""
+def solution(n, k):
+    answer = []
+
+    for i in range(k, n+1, k):
+        answer.append(i)
+
+    return answer
+"""
