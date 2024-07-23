@@ -9,3 +9,8 @@ def solution(myString):
             count = 0
     answer.append(count)
     return answer
+
+"""
+def solution(myString):
+    return [len(w) for w in myString.split('x')]
+"""
