@@ -10,3 +10,7 @@ def solution(start_num, end_num):
         answer.append(start_num)
         start_num -= 1
     return answer
+"""
+def solution(start, end):
+    return list(range(start,end-1,-1))
+"""
