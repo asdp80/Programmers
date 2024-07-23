@@ -14,3 +14,16 @@ def solution(binomial):
     elif answer[1] == '*' :
         result = float(answer[0]) * float(answer[2])
     return result
+
+"""
+def solution(binomial):
+    answer = 0
+    a,b,c = binomial.split(' ')
+    if b == '+':
+        return int(a) + int(c)
+    if b == '-':
+        return int(a) - int(c)
+    if b == '*':
+        return int(a) * int(c)
+
+"""
