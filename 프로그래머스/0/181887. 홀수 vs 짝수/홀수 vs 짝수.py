@@ -7,3 +7,8 @@ def solution(num_list):
             o += num_list[i]
     
     return max(e,o)
+
+"""
+def solution(num_list):
+    return max(sum(num_list[::2]), sum(num_list[1::2]))
+"""
