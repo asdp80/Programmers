@@ -4,3 +4,9 @@ def solution(n):
         if n % i == 0 :
             answer += i
     return answer
+
+"""
+def sumDivisor(num):
+    return sum([i for i in range(1,num+1) if num%i==0])
+
+"""
