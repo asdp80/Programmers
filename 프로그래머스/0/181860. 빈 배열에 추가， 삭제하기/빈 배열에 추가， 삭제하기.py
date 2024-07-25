@@ -6,3 +6,14 @@ def solution(arr, flag):
         else :
             answer = answer[:-arr[i]]
     return list(answer)
+
+"""
+def solution(arr, flag):
+    answer = []
+    for a, f in zip(arr,flag):
+        if f == False:
+            answer = answer[:-a]
+        else:
+            answer += [a] * a*2
+    return answer
+"""
